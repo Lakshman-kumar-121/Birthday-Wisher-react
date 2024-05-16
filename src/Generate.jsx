@@ -8,7 +8,7 @@ const Generate = () => {
   const [link, setLink] = useState('');
   const generateLink = () => {
     setLink(
-      `http://localhost:3000/birthday/${name}/${day}/${month}`
+      `https://birthday-wisher-react-gamma.vercel.app/birthday/${name}/${day}/${month}`
     );
   };
   return (
